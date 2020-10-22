@@ -9,6 +9,7 @@
     "react": "^17.0.0",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.0",
+    "react-grid-gallery": "^0.5.5",
     "react-scripts": "3.4.4"
   },
   "scripts": {

@@ -57,7 +57,9 @@ class Message extends Component {
           <Row className="mx-3 main-row">{displayMessageCard}</Row>
           <Row>
             <Col className="mx-auto text-center">
-              <Button variant="danger">View More</Button>
+              <Button variant="danger" style={{ margin: "20px 0" }}>
+                View More
+              </Button>
             </Col>
           </Row>
         </Container>

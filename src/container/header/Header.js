@@ -41,9 +41,7 @@ class Header extends Component {
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Admission" id="admission-dropdown">
-                <NavDropdown.Item href="#admission1">
-                  Admission
-                </NavDropdown.Item>
+                <NavDropdown.Item href="#messages">News</NavDropdown.Item>
                 <NavDropdown.Item href="#admission2">
                   Admission
                 </NavDropdown.Item>
