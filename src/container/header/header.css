@@ -22,5 +22,8 @@
   height: calc(100vh - 77px);
 }
 
-.col-10 {
+.carousel-caption {
+  right: 35%;
+  top: 35%;
+  left: 0;
 }

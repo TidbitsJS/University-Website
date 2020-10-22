@@ -22,3 +22,7 @@
     margin-top: 10px;
   }
 }
+
+.message-container {
+  display: grid;
+}
