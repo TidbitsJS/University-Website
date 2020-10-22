@@ -4,6 +4,7 @@ import Header from "./container/header/Header";
 import About from "./container/about/About";
 import VideoPage from "./container/videoSection/VideoPage";
 import Courses from "./container/courses/Courses";
+import Message from "./container/Messages/Message";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <About />
       <VideoPage />
       <Courses />
+      <Message />
     </div>
   );
 }
