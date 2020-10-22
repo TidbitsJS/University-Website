@@ -3,3 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@media (min-width: 990px) {
+  .form-inline .form-control {
+    width: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form-inline .form-control {
+    width: 200px;
+  }
+}
+
+@media (max-width: 990px) {
+  .form-inline .form-control {
+    width: auto;
+    margin-top: 10px;
+  }
+}
