@@ -1,0 +1,36 @@
+<Col
+                xs={10}
+                sm={8}
+                lg={8}
+                md={8}
+                className="mx-auto my-3 course-item"
+              >
+                <div className="img-container">
+                  <Image src={course01} fluid />
+                </div>
+                <div className="info-box">
+                  <div style={{ width: "100%" }}>
+                    <h6>Financial Analyst Course</h6>
+                    <p>Charles Banks</p>
+                  </div>
+                  <div className="info-text">
+                    <p className="mb-0">June 3, 2019</p>
+                    <div className="icon-box">
+                      {/* <i className="fas fa-desktop"></i>
+                    <i className="fas fa-hourglass-half"></i>
+                    <i className="fas fa-star"></i> */}
+                      {["fa-desktop", "fa-star"].map((type) => (
+                        <OverlayTrigger
+                          key={type}
+                          placement="top"
+                          overlay={
+                            <Tooltip id={`tooltip-${type}`}>Enroll</Tooltip>
+                          }
+                        >
+                          <i className={`fas ${type}`}></i>
+                        </OverlayTrigger>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </Col>

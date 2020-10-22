@@ -1,17 +1,41 @@
 import React, { Component } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Image,
-  OverlayTrigger,
-  Tooltip,
-} from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import course01 from "../../images/course01.jpeg";
 import "./courses.css";
 
 export class Courses extends Component {
   render() {
+    const displayCourse = ["course01", "course02", "course03", "course04"].map(
+      (course, index) => (
+        <Col
+          xs={10}
+          sm={6}
+          lg={4}
+          className="course-item mx-auto my-3"
+          key={course + index}
+        >
+          <Card className="course-card">
+            <div className="img-container">
+              <Card.Img variant="top" src={course01} className="course-img" />
+              <span className="course-item-icon">
+                <i className="fas fa-star"></i>
+              </span>
+            </div>
+            <Card.Body>
+              <Card.Title>Card Title</Card.Title>
+              <Card.Text>
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </Card.Text>
+              <div class="text-center">
+                <Button variant="primary text-center">Register</Button>
+              </div>
+            </Card.Body>
+          </Card>
+        </Col>
+      )
+    );
+
     return (
       <section id="courses" className="courses py-5">
         <Container>
@@ -33,154 +57,13 @@ export class Courses extends Component {
               </p>
             </Col>
           </Row>
-          <Row className="course-layout">
-            <div className="course-image"></div>
-            <div className="course-box">
-              <Col
-                xs={10}
-                sm={8}
-                lg={8}
-                md={8}
-                className="mx-auto my-3 course-item"
-              >
-                <div className="img-container">
-                  <Image src={course01} fluid />
-                </div>
-                <div className="info-box">
-                  <div style={{ width: "100%" }}>
-                    <h6>Financial Analyst Course</h6>
-                    <p>Charles Banks</p>
-                  </div>
-                  <div className="info-text">
-                    <p className="mb-0">June 3, 2019</p>
-                    <div className="icon-box">
-                      {/* <i className="fas fa-desktop"></i>
-                    <i className="fas fa-hourglass-half"></i>
-                    <i className="fas fa-star"></i> */}
-                      {["fa-desktop", "fa-star"].map((type) => (
-                        <OverlayTrigger
-                          key={type}
-                          placement="top"
-                          overlay={
-                            <Tooltip id={`tooltip-${type}`}>Enroll</Tooltip>
-                          }
-                        >
-                          <i className={`fas ${type}`}></i>
-                        </OverlayTrigger>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col
-                xs={10}
-                sm={8}
-                lg={8}
-                md={8}
-                className="mx-auto my-3 course-item"
-              >
-                <div className="img-container">
-                  <Image src={course01} fluid />
-                </div>
-                <div className="info-box">
-                  <div style={{ width: "100%" }}>
-                    <h6>Financial Analyst Course</h6>
-                    <p>Charles Banks</p>
-                  </div>
-                  <div className="info-text">
-                    <p className="mb-0">June 3, 2019</p>
-                    <div className="icon-box">
-                      {/* <i className="fas fa-desktop"></i>
-                    <i className="fas fa-hourglass-half"></i>
-                    <i className="fas fa-star"></i> */}
-                      {["fa-desktop", "fa-star"].map((type) => (
-                        <OverlayTrigger
-                          key={type}
-                          placement="top"
-                          overlay={
-                            <Tooltip id={`tooltip-${type}`}>Enroll</Tooltip>
-                          }
-                        >
-                          <i className={`fas ${type}`}></i>
-                        </OverlayTrigger>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col
-                xs={10}
-                sm={8}
-                lg={8}
-                md={8}
-                className="mx-auto my-3 course-item"
-              >
-                <div className="img-container">
-                  <Image src={course01} fluid />
-                </div>
-                <div className="info-box">
-                  <div style={{ width: "100%" }}>
-                    <h6>Financial Analyst Course</h6>
-                    <p>Charles Banks</p>
-                  </div>
-                  <div className="info-text">
-                    <p className="mb-0">June 3, 2019</p>
-                    <div className="icon-box">
-                      {/* <i className="fas fa-desktop"></i>
-                    <i className="fas fa-hourglass-half"></i>
-                    <i className="fas fa-star"></i> */}
-                      {["fa-desktop", "fa-star"].map((type) => (
-                        <OverlayTrigger
-                          key={type}
-                          placement="top"
-                          overlay={
-                            <Tooltip id={`tooltip-${type}`}>Enroll</Tooltip>
-                          }
-                        >
-                          <i className={`fas ${type}`}></i>
-                        </OverlayTrigger>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </Col>
-              <Col
-                xs={10}
-                sm={8}
-                lg={8}
-                md={8}
-                className="mx-auto my-3 course-item"
-              >
-                <div className="img-container">
-                  <Image src={course01} fluid />
-                </div>
-                <div className="info-box">
-                  <div style={{ width: "100%" }}>
-                    <h6>Financial Analyst Course</h6>
-                    <p>Charles Banks</p>
-                  </div>
-                  <div className="info-text">
-                    <p className="mb-0">June 3, 2019</p>
-                    <div className="icon-box">
-                      {/* <i className="fas fa-desktop"></i>
-                    <i className="fas fa-hourglass-half"></i>
-                    <i className="fas fa-star"></i> */}
-                      {["fa-desktop", "fa-star"].map((type) => (
-                        <OverlayTrigger
-                          key={type}
-                          placement="top"
-                          overlay={
-                            <Tooltip id={`tooltip-${type}`}>Enroll</Tooltip>
-                          }
-                        >
-                          <i className={`fas ${type}`}></i>
-                        </OverlayTrigger>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </Col>
-            </div>
+          <Row>{displayCourse}</Row>
+          <Row>
+            <Col className="mx-auto my-3">
+              <div className="text-center">
+                <Button variant="danger">View More</Button>
+              </div>
+            </Col>
           </Row>
         </Container>
       </section>
