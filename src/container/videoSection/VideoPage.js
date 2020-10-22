@@ -19,14 +19,6 @@ export class VideoPage extends Component {
               </div>
             </Col>
           </Row>
-          <Row>
-            <Col>
-              <h2>
-                Our <strong style={{ color: "brown" }}>Mission</strong>
-              </h2>
-              <p></p>
-            </Col>
-          </Row>
         </Container>
       </section>
     );

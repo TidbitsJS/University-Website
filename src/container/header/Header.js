@@ -30,11 +30,9 @@ class Header extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mx-auto">
               <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#home">About</Nav.Link>
+              <Nav.Link href="#about">About</Nav.Link>
               <NavDropdown title="Administration" id="administration-dropdown">
-                <NavDropdown.Item href="#administration1">
-                  Administration
-                </NavDropdown.Item>
+                <NavDropdown.Item href="#courses">Courses</NavDropdown.Item>
                 <NavDropdown.Item href="#administration2">
                   Administration
                 </NavDropdown.Item>
@@ -93,7 +91,12 @@ class Header extends Component {
                     <p>
                       Nulla vitae elit libero, a pharetra augue mollis interdum.
                     </p>
-                    <Button variant="outline-warning">Now</Button>
+                    <Button
+                      variant="outline-danger"
+                      style={{ marginBottom: 10 }}
+                    >
+                      Now
+                    </Button>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -109,7 +112,12 @@ class Header extends Component {
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <Button variant="outline-warning">Now</Button>
+                    <Button
+                      variant="outline-danger"
+                      style={{ marginBottom: 10 }}
+                    >
+                      Now
+                    </Button>
                   </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -126,7 +134,12 @@ class Header extends Component {
                       Praesent commodo cursus magna, vel scelerisque nisl
                       consectetur.
                     </p>
-                    <Button variant="outline-warning">Now</Button>
+                    <Button
+                      variant="outline-danger"
+                      style={{ marginBottom: 10 }}
+                    >
+                      Now
+                    </Button>
                   </Carousel.Caption>
                 </Carousel.Item>
               </Carousel>
