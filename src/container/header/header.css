@@ -1,0 +1,26 @@
+.nav-link {
+  font-size: 1.25rem;
+  padding: 0 1.1rem !important;
+}
+
+@media (max-width: 990px) {
+  .enroll-btn {
+    margin-top: 1rem;
+  }
+}
+
+.div-col {
+  width: 100%;
+  height: calc(100vh - 77px);
+}
+
+.carousel-item img {
+  width: 100%;
+  height: calc(100vh - 77px);
+}
+
+.col-10 {
+  max-width: 100% !important;
+  flex: 1 !important;
+  padding: 0;
+}
