@@ -16,16 +16,9 @@ class PhotoGallery extends Component {
   render() {
     return (
       <section id="gallary">
-        <Container
-          fluid
-          className="message-container"
-          style={{ margin: 0, padding: 0 }}
-        >
-          <Row style={{ margin: 0, padding: 0 }}>
-            <Col
-              className="mx-auto my-3 text-center text-capitalize"
-              style={{ margin: 0, padding: 0 }}
-            >
+        <Container fluid className="message-container">
+          <Row>
+            <Col className="mx-auto my-3 text-center text-capitalize">
               <h1>
                 University <strong style={{ color: "brown" }}>Gallery</strong>
               </h1>
@@ -36,7 +29,8 @@ class PhotoGallery extends Component {
             <Button
               variant="danger"
               data-aos="zoom-in"
-              style={{ margin: "20px 0" }}
+              style={{ margin: "20px 0", color: "#fff" }}
+              className=" btn-gallery"
             >
               <Link to="/gallery">View More</Link>
             </Button>
