@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import college from "../../images/College Logo.png";
 import "./about.css";
+import { Link } from "react-router-dom";
 
 class About extends Component {
   render() {
@@ -26,11 +27,11 @@ class About extends Component {
                 closer to the currents of prevalent knowledge.
               </p>
               <a
-                href="#more"
+                href="/about"
                 className="btn btn-outline-primary text-uppercase"
                 data-aos="fade-right"
               >
-                learn more{" "}
+                <Link to="/about">learn more</Link>
                 <span>
                   <i
                     style={{ marginLeft: 10 }}
