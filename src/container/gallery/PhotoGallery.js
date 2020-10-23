@@ -24,7 +24,11 @@ class PhotoGallery extends Component {
           </Row>
           <Gallery images={IMAGES} />
           <div className="text-center">
-            <Button variant="danger" style={{ margin: "20px 0" }}>
+            <Button
+              variant="danger"
+              data-aos="zoom-in"
+              style={{ margin: "20px 0" }}
+            >
               View More
             </Button>
           </div>

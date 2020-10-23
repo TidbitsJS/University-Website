@@ -13,6 +13,7 @@ export class Courses extends Component {
           lg={4}
           className="course-item mx-auto my-3"
           key={course + index}
+          data-aos="fade-up"
         >
           <Card className="course-card">
             <div className="img-container">
@@ -51,7 +52,7 @@ export class Courses extends Component {
                   marginTop: 20,
                 }}
               ></p>
-              <p className="text-muted">
+              <p className="text-muted" data-aos="fade-up">
                 Our Featured Courses are selected through a rigorous process and
                 uniquely created for each semester.
               </p>
@@ -59,7 +60,7 @@ export class Courses extends Component {
           </Row>
           <Row>{displayCourse}</Row>
           <Row>
-            <Col className="mx-auto my-3">
+            <Col className="mx-auto my-3" data-aos="zoom-in">
               <div className="text-center">
                 <Button variant="danger">View More</Button>
               </div>

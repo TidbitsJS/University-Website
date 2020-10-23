@@ -12,6 +12,7 @@ export class Footer extends Component {
             <Col
               sm={6}
               md={4}
+              data-aos="fade-right"
               className="mx-auto d-flex justify-content-start align-items-center flex-column flex-wrap"
             >
               <Image src={college} fluid />
@@ -20,6 +21,7 @@ export class Footer extends Component {
             <Col
               sm={6}
               md={4}
+              data-aos="fade-left"
               className="d-flex mt-3 justify-content-start  flex-column flex-wrap"
             >
               <h3 className="mb-2 text-capitalize text-start">contact us</h3>
@@ -50,6 +52,7 @@ export class Footer extends Component {
             <Col
               sm={6}
               md={4}
+              data-aos="fade-left"
               className="mx-auto mt-3 d-flex justify-content-start  flex-column flex-wrap"
             >
               <h3 className="mb-2">NewsLetter</h3>

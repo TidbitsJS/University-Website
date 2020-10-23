@@ -84,7 +84,11 @@ class Header extends Component {
                     alt="First slide"
                     fluid
                   />
-                  <Carousel.Caption>
+                  <Carousel.Caption
+                    data-aos="fade-down"
+                    // data-aos-offset="300"
+                    // data-aos-easing="ease-in-sine"
+                  >
                     <h3>First slide label</h3>
                     <p>
                       Nulla vitae elit libero, a pharetra augue mollis interdum.
@@ -102,7 +106,7 @@ class Header extends Component {
                     fluid
                   />
 
-                  <Carousel.Caption>
+                  <Carousel.Caption data-aos="fade-right">
                     <h3>Second slide label</h3>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -120,7 +124,7 @@ class Header extends Component {
                     fluid
                   />
 
-                  <Carousel.Caption>
+                  <Carousel.Caption data-aos="fade-right">
                     <h3>Third slide label</h3>
                     <p>
                       Praesent commodo cursus magna, vel scelerisque nisl

@@ -14,7 +14,7 @@ class Message extends Component {
       "card06",
       "card07",
     ].map((cards, index) => (
-      <Col className="mx-auto my-3" lg={4} sm={6}>
+      <Col className="mx-auto my-3" lg={4} sm={6} data-aos="zoom-in-up">
         <Card className="message-card">
           <Row className="no-gutters">
             <Col className="col-sm-5">
