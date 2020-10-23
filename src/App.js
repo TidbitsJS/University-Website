@@ -12,6 +12,7 @@ import PhotoGallary from "./container/gallery/PhotoGallery";
 import Footer from "./container/footer/Footer";
 import Slider from "./container/header/Slider";
 import FullGallery from "./container/gallery/FullGallery";
+import Contact from "./components/contact/Contact";
 
 class App extends React.Component {
   constructor(props) {
@@ -41,6 +42,9 @@ class App extends React.Component {
             </Route>
             <Route path="/gallery">
               <FullGallery />
+            </Route>
+            <Route>
+              <Contact />
             </Route>
           </Switch>
           <Footer />
