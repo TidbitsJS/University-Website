@@ -2,18 +2,22 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import college from "../../images/College Logo.png";
 import "./footer.css";
+import MapContainer from "./MapContainer";
 
 export class Footer extends Component {
   render() {
     return (
       <footer className="site-footer" id="contact">
-        <Container>
+        <Container fluid>
           <Row>
+            <MapContainer />
+          </Row>
+          <Row className="mt-5">
             <Col
               sm={6}
               md={4}
               data-aos="fade-right"
-              className="mx-auto d-flex justify-content-start align-items-center flex-column flex-wrap"
+              className="mx-auto  d-flex justify-content-start align-items-center flex-column flex-wrap"
             >
               <Image src={college} fluid />
               <h4 className="mt-3">University of York</h4>

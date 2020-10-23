@@ -1,0 +1,10 @@
+.google-map {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 799px) {
+  .google-map {
+    height: 80vh;
+  }
+}
