@@ -8,7 +8,7 @@ import "./header.css";
 class Slider extends Component {
   render() {
     return (
-      <Container fluid>
+      <Container fluid style={{ height: "100vh" }}>
         <Row className="max-height">
           <Col xs={10} className="mx-auto div-col">
             <Carousel>

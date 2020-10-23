@@ -19,13 +19,9 @@ class Contact extends Component {
             </Col>
           </Row>
         </Container>
-        <Container
-          fluid
-          className="pt-5 pb-5"
-          style={{ backgroundColor: "#f8f9fa" }}
-        >
+        <Container fluid className="pt-5 pb-5" style={{}}>
           <Row>
-            <Col lg={7} md={6} className="mx-3">
+            <Col lg={8} md={6} className="mx-3">
               <h1>Get in Touch</h1>
               <hr />
               <p className="mt-5">
@@ -89,12 +85,85 @@ class Contact extends Component {
                 </Form.Row>
 
                 <Button variant="primary" type="submit">
-                  Submit
+                  Send Message
                 </Button>
               </Form>
             </Col>
-            <Col lg={4} md={6}>
-              there
+            <Col lg={3} md={6} className="mx-3 mt-5 mt-lg-3">
+              <h3>Social</h3>
+              <hr />
+              <div>
+                <ul class="social-icons">
+                  <li>
+                    <a class="facebook" href="#fb">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="#twitter">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dribbble" href="#dribble">
+                      <i class="fab fa-dribbble"></i>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="linkedin" href="#linkedin">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="mt-5">
+                <h3>Phone</h3>
+                <hr />
+                <p>
+                  <span>
+                    <i
+                      className="fas fa-phone"
+                      style={{ marginRight: 15, color: "dodgerblue" }}
+                    ></i>
+                  </span>
+                  +91 9834905510
+                </p>
+                <p>
+                  <span>
+                    <i
+                      className="fas fa-phone"
+                      style={{ marginRight: 15, color: "dodgerblue" }}
+                    ></i>
+                  </span>
+                  +91 9834905510
+                </p>
+              </div>
+              <div className="mt-5">
+                <h3>Email</h3>
+                <hr />
+                <p>
+                  <span>
+                    <i
+                      className="fas fa-envelope"
+                      style={{ marginRight: 15, color: "mediumpurple" }}
+                    ></i>
+                  </span>
+                  enolaholmes@gmail.com
+                </p>
+              </div>
+              <div className="mt-5">
+                <h3>Address</h3>
+                <hr />
+                <p>
+                  <span>
+                    <i
+                      className="fas fa-map-marker"
+                      style={{ marginRight: 15, color: "darkorange" }}
+                    ></i>
+                  </span>
+                  2130 Fulton Street San Diego, CA 94117-1080 USA
+                </p>
+              </div>
             </Col>
           </Row>
         </Container>
