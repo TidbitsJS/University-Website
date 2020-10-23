@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import Gallery from "react-grid-gallery";
 import { IMAGES } from "./Data";
-import { Container, Row, Col, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
-class PhotoGallery extends Component {
+class FullGallery extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      imageData: IMAGES.slice(0, 10),
+      imageData: IMAGES,
     };
   }
 
@@ -27,24 +26,15 @@ class PhotoGallery extends Component {
               style={{ margin: 0, padding: 0 }}
             >
               <h1>
-                University <strong style={{ color: "brown" }}>Gallery</strong>
+                <strong style={{ color: "brown" }}>Gallery</strong>
               </h1>
             </Col>
           </Row>
-          <Gallery images={this.state.imageData} />
-          <div className="text-center">
-            <Button
-              variant="danger"
-              data-aos="zoom-in"
-              style={{ margin: "20px 0" }}
-            >
-              <Link to="/gallery">View More</Link>
-            </Button>
-          </div>
+          <Gallery images={IMAGES} />
         </Container>
       </section>
     );
   }
 }
 
-export default PhotoGallery;
+export default FullGallery;
