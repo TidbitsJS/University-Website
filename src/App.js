@@ -6,6 +6,7 @@ import VideoPage from "./container/videoSection/VideoPage";
 import Courses from "./container/courses/Courses";
 import Message from "./container/Messages/Message";
 import PhotoGallary from "./container/gallery/PhotoGallery";
+import Footer from "./container/footer/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <VideoPage />
       <Courses />
       <PhotoGallary />
+      <Footer />
     </div>
   );
 }
