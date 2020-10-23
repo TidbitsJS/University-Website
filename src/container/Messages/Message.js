@@ -4,7 +4,19 @@ import course from "../../images/course01.jpeg";
 import "./message.css";
 
 class Message extends Component {
+  constructor(props) {
+    super(props);
+    this.marquee = React.createRef();
+  }
   render() {
+    const stopM = () => {
+      console.log("over");
+    };
+
+    const startM = () => {
+      console.log("up");
+    };
+
     const displayMessageCard = [
       "card01",
       "card02",
@@ -12,7 +24,6 @@ class Message extends Component {
       "card04",
       "card05",
       "card06",
-      "card07",
     ].map((cards, index) => (
       <Col className="mx-auto my-3" lg={4} sm={6} data-aos="zoom-in-up">
         <Card className="message-card">
@@ -47,9 +58,41 @@ class Message extends Component {
                 Latest <strong style={{ color: "brown" }}>Updates</strong>
               </h1>
               <div className="latest-news">
-                <marquee>
-                  We are coming soon with bunch of surprises{" "}
-                  <i class="fas fa-certificate"></i>
+                <marquee
+                  ref={this.marquee}
+                  onMouseEnter={() =>
+                    this.marquee &&
+                    this.marquee.current &&
+                    this.marquee.current.stop()
+                  }
+                  onMouseLeave={() =>
+                    this.marquee &&
+                    this.marquee.current &&
+                    this.marquee.current.start()
+                  }
+                >
+                  <p>
+                    We are coming soon with bunch of surprises
+                    <i
+                      class="fas fa-certificate"
+                      style={{ marginRight: "2rem", marginLeft: "10px" }}
+                    ></i>
+                    Enola Holmes is arriving here on Netflix
+                    <i
+                      class="fas fa-certificate"
+                      style={{ marginRight: "2rem", marginLeft: "10px" }}
+                    ></i>
+                    Biblo baggins is going on an adventure
+                    <i
+                      class="fas fa-certificate"
+                      style={{ marginRight: "2rem", marginLeft: "10px" }}
+                    ></i>
+                    Eat sleep code repeat, do Learn do earn
+                    <i
+                      class="fas fa-certificate"
+                      style={{ marginRight: "2rem", marginLeft: "10px" }}
+                    ></i>
+                  </p>
                 </marquee>
               </div>
             </Col>

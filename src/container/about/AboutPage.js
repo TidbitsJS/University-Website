@@ -22,7 +22,7 @@ class AboutPage extends Component {
         </Container>
         <Container fluid>
           <Row>
-            <Col className="mx-auto text-left mt-5 mb-5">
+            <Col className="mx-auto px-lg-5 text-left mt-5 mb-5">
               <h1>Overview</h1>
               <div style={{ borderTop: "4px solid green", width: 50 }}></div>
               <p className="mt-3">
@@ -55,7 +55,7 @@ class AboutPage extends Component {
             </Col>
           </Row>
           <Row style={{ backgroundColor: "rgba(0,0,0,0.2)", color: "white" }}>
-            <Col xs={10} lg={8} md={6} className="mx-auto my-5">
+            <Col xs={10} lg={8} md={6} className="mx-auto px-lg-5 my-5">
               <h1 className="text-capitalize">
                 <strong className="banner-title">Mission</strong>
               </h1>
@@ -88,7 +88,7 @@ class AboutPage extends Component {
               xs={10}
               lg={4}
               md={6}
-              className="mx-auto my-5 align-self-center"
+              className="mx-auto px-lg-5 my-5 align-self-center"
               data-aos="fade-in"
             >
               <div className="about-img_container">
