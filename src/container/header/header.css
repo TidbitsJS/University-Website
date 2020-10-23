@@ -3,6 +3,10 @@
   padding: 0 1rem !important;
 }
 
+.header-styles {
+  height: 100vh;
+}
+
 @media (max-width: 575px) {
   .enroll-btn {
     margin-top: 1rem;
@@ -19,11 +23,25 @@
 
 .carousel-item img {
   width: 100%;
-  height: calc(100vh - 77px);
+  height: calc(100vh);
 }
 
 .carousel-caption {
   right: 35%;
   top: 35%;
-  left: 0;
+}
+
+@media (max-width: 750px) {
+  .carousel-caption {
+    top: 30%;
+  }
+}
+
+@media (max-width: 550px) {
+  .carousel-caption {
+    width: 80%;
+  }
+  .carousel-caption h1 {
+    font-size: 1.7rem;
+  }
 }

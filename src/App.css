@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+.App {
+  overflow: hidden;
+}
+
 @media (min-width: 990px) {
   .form-inline .form-control {
     width: 90px;

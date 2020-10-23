@@ -21,7 +21,7 @@ import "./header.css";
 class Header extends Component {
   render() {
     return (
-      <header id="home">
+      <header id="home" className="header-styles">
         <Navbar bg="light" fixed="top" expand="lg" className="px-4">
           <Navbar.Brand href="#home">
             <img src={logo} alt="logo" />
@@ -85,12 +85,17 @@ class Header extends Component {
                     fluid
                   />
                   <Carousel.Caption
+                    className="text-left"
                     data-aos="fade-down"
                     // data-aos-offset="300"
                     // data-aos-easing="ease-in-sine"
                   >
-                    <h3>First slide label</h3>
+                    <h1> First slide label First slide label </h1>
                     <p>
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
+                      Nulla vitae elit libero, a pharetra augue mollis interdum.
                       Nulla vitae elit libero, a pharetra augue mollis interdum.
                     </p>
                     <Button variant="danger" style={{ marginBottom: 10 }}>
@@ -106,8 +111,8 @@ class Header extends Component {
                     fluid
                   />
 
-                  <Carousel.Caption data-aos="fade-right">
-                    <h3>Second slide label</h3>
+                  <Carousel.Caption data-aos="fade-right" className="text-left">
+                    <h1>Second slide label</h1>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
@@ -124,8 +129,8 @@ class Header extends Component {
                     fluid
                   />
 
-                  <Carousel.Caption data-aos="fade-right">
-                    <h3>Third slide label</h3>
+                  <Carousel.Caption data-aos="fade-right" className="text-left">
+                    <h1>Third slide label</h1>
                     <p>
                       Praesent commodo cursus magna, vel scelerisque nisl
                       consectetur.
