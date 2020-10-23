@@ -13,6 +13,7 @@ import Footer from "./container/footer/Footer";
 import Slider from "./container/header/Slider";
 import FullGallery from "./container/gallery/FullGallery";
 import Contact from "./components/contact/Contact";
+import AboutPage from "./container/about/AboutPage";
 
 class App extends React.Component {
   constructor(props) {
@@ -38,7 +39,7 @@ class App extends React.Component {
               <PhotoGallary />
             </Route>
             <Route path="/about">
-              <About />
+              <AboutPage />
             </Route>
             <Route path="/gallery">
               <FullGallery />
