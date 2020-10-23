@@ -12,17 +12,21 @@ export class Footer extends Component {
             <Col
               sm={6}
               md={4}
-              className="mx-auto d-flex justify-content-center flex-wrap"
+              className="mx-auto d-flex justify-content-start align-items-center flex-column flex-wrap"
             >
               <Image src={college} fluid />
+              <h4 className="mt-3">University of York</h4>
             </Col>
             <Col
               sm={6}
               md={4}
-              className="d-flex mt-4 justify-content-start align-items-center flex-column flex-wrap"
+              className="d-flex mt-3 justify-content-start  flex-column flex-wrap"
             >
-              <h3 className="mb-3 text-capitalize">contact us</h3>
-              <div className="justify-content-start align-items-center flex-column">
+              <h3 className="mb-2 text-capitalize text-start">contact us</h3>
+              <div
+                className="justify-content-start align-items-center flex-column"
+                style={{ borderTop: "2px solid green", paddingTop: "0.5rem" }}
+              >
                 <p class="d-flex flex-wrap">
                   <span class="mr-4 footer-icon">
                     <i class="fas fa-map"></i>
@@ -46,10 +50,13 @@ export class Footer extends Component {
             <Col
               sm={6}
               md={4}
-              className="mx-auto mt-3 d-flex justify-content-start align-items-center flex-column flex-wrap"
+              className="mx-auto mt-3 d-flex justify-content-start  flex-column flex-wrap"
             >
-              <h3 className="mb-3">NewsLetter</h3>
-              <div>
+              <h3 className="mb-2">NewsLetter</h3>
+
+              <div
+                style={{ borderTop: "2px solid green", paddingTop: "0.5rem" }}
+              >
                 Enter your email address to get the latest University news,
                 special events and student activities delivered right to your
                 inbox.
