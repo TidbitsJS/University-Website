@@ -6,7 +6,7 @@ import "./video.css";
 export class VideoPage extends Component {
   render() {
     return (
-      <section>
+      <section style={{ backgroundColor: "#0d2d62" }}>
         <Container fluid className="video-container">
           <Row className="video-row">
             <Col xs={10} className="mx-auto video-col">

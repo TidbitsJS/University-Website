@@ -21,8 +21,8 @@ import "./header.css";
 class Header extends Component {
   render() {
     return (
-      <header id="header">
-        <Navbar bg="light" expand="lg" className="px-4">
+      <header id="home">
+        <Navbar bg="light" fixed="top" expand="lg" className="px-4">
           <Navbar.Brand href="#home">
             <img src={logo} alt="logo" />
           </Navbar.Brand>
@@ -89,10 +89,7 @@ class Header extends Component {
                     <p>
                       Nulla vitae elit libero, a pharetra augue mollis interdum.
                     </p>
-                    <Button
-                      variant="outline-danger"
-                      style={{ marginBottom: 10 }}
-                    >
+                    <Button variant="danger" style={{ marginBottom: 10 }}>
                       Now
                     </Button>
                   </Carousel.Caption>
@@ -110,10 +107,7 @@ class Header extends Component {
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     </p>
-                    <Button
-                      variant="outline-danger"
-                      style={{ marginBottom: 10 }}
-                    >
+                    <Button variant="danger" style={{ marginBottom: 10 }}>
                       Now
                     </Button>
                   </Carousel.Caption>
@@ -132,10 +126,7 @@ class Header extends Component {
                       Praesent commodo cursus magna, vel scelerisque nisl
                       consectetur.
                     </p>
-                    <Button
-                      variant="outline-danger"
-                      style={{ marginBottom: 10 }}
-                    >
+                    <Button variant="danger" style={{ marginBottom: 10 }}>
                       Now
                     </Button>
                   </Carousel.Caption>

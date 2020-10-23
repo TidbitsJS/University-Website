@@ -6,13 +6,10 @@ import { Container, Row, Col, Button } from "react-bootstrap";
 class PhotoGallery extends Component {
   render() {
     return (
-      <section
-        id="gallary"
-        style={{ backgroundColor: "#0d2d62", color: "white" }}
-      >
+      <section id="gallary">
         <Container
           fluid
-          className="message-container my-3"
+          className="message-container"
           style={{ margin: 0, padding: 0 }}
         >
           <Row style={{ margin: 0, padding: 0 }}>
@@ -27,7 +24,7 @@ class PhotoGallery extends Component {
           </Row>
           <Gallery images={IMAGES} />
           <div className="text-center">
-            <Button variant="outline-danger" style={{ margin: "20px 0" }}>
+            <Button variant="danger" style={{ margin: "20px 0" }}>
               View More
             </Button>
           </div>
