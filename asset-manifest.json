@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/University-Website/static/css/main.b2d89330.chunk.css",
-    "main.js": "/University-Website/static/js/main.08caeaec.chunk.js",
-    "main.js.map": "/University-Website/static/js/main.08caeaec.chunk.js.map",
+    "main.js": "/University-Website/static/js/main.f10e1fe6.chunk.js",
+    "main.js.map": "/University-Website/static/js/main.f10e1fe6.chunk.js.map",
     "runtime-main.js": "/University-Website/static/js/runtime-main.81dace9e.js",
     "runtime-main.js.map": "/University-Website/static/js/runtime-main.81dace9e.js.map",
     "static/css/2.4707e12a.chunk.css": "/University-Website/static/css/2.4707e12a.chunk.css",
     "static/js/2.1c29c1ac.chunk.js": "/University-Website/static/js/2.1c29c1ac.chunk.js",
     "static/js/2.1c29c1ac.chunk.js.map": "/University-Website/static/js/2.1c29c1ac.chunk.js.map",
     "index.html": "/University-Website/index.html",
-    "precache-manifest.3fcb0a39faa2c53f659c054e2de9ec34.js": "/University-Website/precache-manifest.3fcb0a39faa2c53f659c054e2de9ec34.js",
+    "precache-manifest.e21b8bac8f457472361081e806dc288a.js": "/University-Website/precache-manifest.e21b8bac8f457472361081e806dc288a.js",
     "service-worker.js": "/University-Website/service-worker.js",
     "static/css/2.4707e12a.chunk.css.map": "/University-Website/static/css/2.4707e12a.chunk.css.map",
     "static/css/main.b2d89330.chunk.css.map": "/University-Website/static/css/main.b2d89330.chunk.css.map",
@@ -27,6 +27,6 @@
     "static/css/2.4707e12a.chunk.css",
     "static/js/2.1c29c1ac.chunk.js",
     "static/css/main.b2d89330.chunk.css",
-    "static/js/main.08caeaec.chunk.js"
+    "static/js/main.f10e1fe6.chunk.js"
   ]
 }
