@@ -24,7 +24,7 @@ a:hover {
 
 .div-col {
   width: 100%;
-  height: calc(100vh - 77px);
+  height: calc(100vh - 76px);
   flex: 1 !important;
   padding: 0;
   max-width: 100% !important;
@@ -42,7 +42,7 @@ a:hover {
 
 @media (max-width: 750px) {
   .carousel-caption {
-    top: 30%;
+    top: 20%;
   }
 }
 

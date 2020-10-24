@@ -85,3 +85,7 @@
 .btn-gallery a {
   color: white;
 }
+
+.carousel-item img {
+  height: calc(100vh - 76px) !important;
+}

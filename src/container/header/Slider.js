@@ -8,7 +8,7 @@ import "./header.css";
 class Slider extends Component {
   render() {
     return (
-      <Container fluid style={{ height: "100vh" }}>
+      <Container fluid style={{ height: "calc(100vh - 77px)" }}>
         <Row className="max-height">
           <Col xs={10} className="mx-auto div-col">
             <Carousel>
@@ -18,6 +18,7 @@ class Slider extends Component {
                   src={slide01}
                   alt="First slide"
                   fluid
+                  style={{ objectFit: "cover" }}
                 />
                 <Carousel.Caption
                   className="text-left"
@@ -44,6 +45,7 @@ class Slider extends Component {
                   src={slide02}
                   alt="Third slide"
                   fluid
+                  style={{ objectFit: "cover" }}
                 />
 
                 <Carousel.Caption data-aos="fade-right" className="text-left">
@@ -62,6 +64,7 @@ class Slider extends Component {
                   src={slide03}
                   alt="Third slide"
                   fluid
+                  style={{ objectFit: "cover" }}
                 />
 
                 <Carousel.Caption data-aos="fade-right" className="text-left">
