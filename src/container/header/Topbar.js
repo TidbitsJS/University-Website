@@ -26,7 +26,7 @@ export class Topbar extends Component {
             </Link>
 
             <NavDropdown title="Administration" id="administration-dropdown">
-              <NavDropdown.Item href="#courses">Courses</NavDropdown.Item>
+              <NavDropdown.Item href="/#courses">Courses</NavDropdown.Item>
               <Link to="/gallery">
                 <NavDropdown.Item href="/gallery">gallery</NavDropdown.Item>
               </Link>
