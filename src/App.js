@@ -2,7 +2,7 @@ import React from "react";
 import AOS from "aos";
 import "./App.css";
 import "aos/dist/aos.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import Topbar from "./container/header/Topbar";
 import About from "./container/about/About";
 import VideoPage from "./container/videoSection/VideoPage";
@@ -41,25 +41,25 @@ class App extends React.Component {
               <Courses />
               <PhotoGallary />
             </Route>
-            <Route path="/about">
+            <Route exact path="/about">
               <AboutPage />
             </Route>
-            <Route path="/gallery">
+            <Route exact path="/gallery">
               <FullGallery />
             </Route>
-            <Route path="/courses">
+            <Route exact path="/courses">
               <Courses />
             </Route>
-            <Route path="/events">
+            <Route exact path="/events">
               <Event />
             </Route>
-            <Route path="/notification">
+            <Route exact path="/notification">
               <Notify />
             </Route>
-            <Route path="/faculty">
+            <Route exact path="/faculty">
               <FacultyPage />
             </Route>
-            <Route path="/contact">
+            <Route exact path="/contact">
               <Contact />
             </Route>
           </Switch>
