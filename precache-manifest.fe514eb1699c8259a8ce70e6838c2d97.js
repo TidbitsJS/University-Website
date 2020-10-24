@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "13a76ee85d7f86d819029b2e82cc02fc",
+    "revision": "e94f24e9fbb0ca14929134b16a4b719f",
     "url": "/University-Website/index.html"
   },
   {
-    "revision": "58dd43103f4006d578fc",
+    "revision": "45b2aad35490e5e6ea05",
     "url": "/University-Website/static/css/2.4707e12a.chunk.css"
   },
   {
-    "revision": "e299a6595b942f2a07ba",
+    "revision": "f79aa2aa79ec417cdbdf",
     "url": "/University-Website/static/css/main.b2d89330.chunk.css"
   },
   {
-    "revision": "58dd43103f4006d578fc",
-    "url": "/University-Website/static/js/2.1c29c1ac.chunk.js"
+    "revision": "45b2aad35490e5e6ea05",
+    "url": "/University-Website/static/js/2.1930eeb0.chunk.js"
   },
   {
     "revision": "09ddb253e7cd5a5d281df67aa70a6036",
-    "url": "/University-Website/static/js/2.1c29c1ac.chunk.js.LICENSE.txt"
+    "url": "/University-Website/static/js/2.1930eeb0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e299a6595b942f2a07ba",
-    "url": "/University-Website/static/js/main.08caeaec.chunk.js"
+    "revision": "f79aa2aa79ec417cdbdf",
+    "url": "/University-Website/static/js/main.1f7085b7.chunk.js"
   },
   {
     "revision": "28b9cd248211f8ca01cc",
