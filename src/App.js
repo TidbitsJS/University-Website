@@ -29,7 +29,7 @@ class App extends React.Component {
   }
   render() {
     return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Topbar />
           <Switch>
@@ -46,6 +46,9 @@ class App extends React.Component {
             </Route>
             <Route path="/gallery">
               <FullGallery />
+            </Route>
+            <Route path="/courses">
+              <Courses />
             </Route>
             <Route path="/events">
               <Event />
