@@ -14,7 +14,7 @@ import { Link } from "react-router-dom";
 export class Topbar extends Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg" className="px-4">
+      <Navbar bg="light" expand="lg" className="px-4 text-capitalize">
         <Navbar.Brand href="#home">
           <img src={logo} alt="logo" />
         </Navbar.Brand>
@@ -30,26 +30,22 @@ export class Topbar extends Component {
               <Link to="/gallery">
                 <NavDropdown.Item href="/gallery">gallery</NavDropdown.Item>
               </Link>
-              <NavDropdown.Item href="#administration3">
-                Administration
-              </NavDropdown.Item>
+              <Link to="/events">
+                <NavDropdown.Item href="/events">events</NavDropdown.Item>
+              </Link>
             </NavDropdown>
-            <NavDropdown title="Admission" id="admission-dropdown">
-              <NavDropdown.Item href="#messages">News</NavDropdown.Item>
-              <NavDropdown.Item href="#admission2">Admission</NavDropdown.Item>
-              <NavDropdown.Item href="#admission3">Admission</NavDropdown.Item>
-              <NavDropdown.Item href="#admission4">Admission</NavDropdown.Item>
-              <NavDropdown.Item href="#admission5">Admission</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Faculty" id="campus-dropdown">
-              <NavDropdown.Item href="#campus1">Campus 01</NavDropdown.Item>
-              <NavDropdown.Item href="#campus1">Campus 01</NavDropdown.Item>
-              <NavDropdown.Item href="#campus1">Campus 01</NavDropdown.Item>
-            </NavDropdown>
+            <Link to="/admission">
+              <Nav.Link href="/admission">Admission</Nav.Link>
+            </Link>
+            <Link to="/faculty">
+              <Nav.Link href="/faculty">Faculty</Nav.Link>
+            </Link>
             <Link to="/about">
               <Nav.Link href="/about">About</Nav.Link>
             </Link>
-            <Nav.Link href="/contact">Contact</Nav.Link>
+            <Link to="/contact">
+              <Nav.Link href="/contact">Contact</Nav.Link>
+            </Link>
           </Nav>
           <Form inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />

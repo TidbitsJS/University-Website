@@ -14,6 +14,8 @@ import Slider from "./container/header/Slider";
 import FullGallery from "./container/gallery/FullGallery";
 import Contact from "./components/contact/Contact";
 import AboutPage from "./container/about/AboutPage";
+import FacultyPage from "./components/Faculty/FacultyPage";
+import Event from "./components/Events/Event";
 
 class App extends React.Component {
   constructor(props) {
@@ -44,7 +46,13 @@ class App extends React.Component {
             <Route path="/gallery">
               <FullGallery />
             </Route>
-            <Route>
+            <Route path="/events">
+              <Event />
+            </Route>
+            <Route path="/faculty">
+              <FacultyPage />
+            </Route>
+            <Route path="/contact">
               <Contact />
             </Route>
           </Switch>
