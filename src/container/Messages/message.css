@@ -16,3 +16,11 @@
 .latest-news i {
   color: darkorange;
 }
+
+.marq-a {
+  color: black;
+}
+
+.marq-a:hover {
+  color: red;
+}

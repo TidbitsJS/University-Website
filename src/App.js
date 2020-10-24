@@ -16,6 +16,7 @@ import Contact from "./components/contact/Contact";
 import AboutPage from "./container/about/AboutPage";
 import FacultyPage from "./components/Faculty/FacultyPage";
 import Event from "./components/Events/Event";
+import Notify from "./components/Notification/Notify";
 
 class App extends React.Component {
   constructor(props) {
@@ -48,6 +49,9 @@ class App extends React.Component {
             </Route>
             <Route path="/events">
               <Event />
+            </Route>
+            <Route path="/notification">
+              <Notify />
             </Route>
             <Route path="/faculty">
               <FacultyPage />

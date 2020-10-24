@@ -10,14 +10,6 @@ class Message extends Component {
     this.marquee = React.createRef();
   }
   render() {
-    const stopM = () => {
-      console.log("over");
-    };
-
-    const startM = () => {
-      console.log("up");
-    };
-
     const displayMessageCard = [
       "card01",
       "card02",
@@ -40,7 +32,7 @@ class Message extends Component {
               <Card.Body>
                 <Card.Title>Learn Js in ease</Card.Title>
                 <Card.Text>Lorem ipsum dolet lorem ipsum dolet lorem</Card.Text>
-                <a href="#learn" className="btn btn-success">
+                <a href="/notification" className="btn btn-success">
                   Learn More
                 </a>
               </Card.Body>
@@ -73,22 +65,30 @@ class Message extends Component {
                   }
                 >
                   <p>
-                    We are coming soon with bunch of surprises
+                    <a href="/notification" className="marq-a">
+                      We are coming soon with bunch of surprises
+                    </a>
                     <i
                       class="fas fa-certificate"
                       style={{ marginRight: "2rem", marginLeft: "10px" }}
                     ></i>
-                    Enola Holmes is arriving here on Netflix
+                    <a href="/notification" className="marq-a">
+                      We are coming soon with bunch of surprises
+                    </a>
                     <i
                       class="fas fa-certificate"
                       style={{ marginRight: "2rem", marginLeft: "10px" }}
                     ></i>
-                    Biblo baggins is going on an adventure
+                    <a href="/notification" className="marq-a">
+                      We are coming soon with bunch of surprises
+                    </a>
                     <i
                       class="fas fa-certificate"
                       style={{ marginRight: "2rem", marginLeft: "10px" }}
                     ></i>
-                    Eat sleep code repeat, do Learn do earn
+                    <a href="/notification" className="marq-a">
+                      We are coming soon with bunch of surprises
+                    </a>
                     <i
                       class="fas fa-certificate"
                       style={{ marginRight: "2rem", marginLeft: "10px" }}

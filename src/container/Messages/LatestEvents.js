@@ -18,7 +18,7 @@ class LatestEvents extends Component {
               <Card.Body>
                 <Card.Title>Learn Js in ease</Card.Title>
                 <Card.Text>Lorem ipsum dolet lorem ipsum dolet lorem</Card.Text>
-                <a href="#learn" className="btn btn-success">
+                <a href="/events" className="btn btn-success">
                   Learn More
                 </a>
               </Card.Body>
