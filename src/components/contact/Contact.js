@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import "./contact.css";
 
 class Contact extends Component {
   render() {
@@ -19,7 +20,11 @@ class Contact extends Component {
             </Col>
           </Row>
         </Container>
-        <Container fluid className="pt-5 pb-5" style={{}}>
+        <Container
+          fluid
+          className="pt-5 pb-5"
+          style={{ backgroundColor: "#fff" }}
+        >
           <Row>
             <Col lg={8} md={6} className="mx-3">
               <h1>Get in Touch</h1>

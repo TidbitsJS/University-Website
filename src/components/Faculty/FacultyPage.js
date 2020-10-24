@@ -21,7 +21,7 @@ class FacultyPage extends Component {
             <h3 className="name">{member}</h3>
             <h4 className="title">Web Developer</h4>
           </div>
-          <ul class=" social">
+          <ul class="social">
             <li>
               <a class="facebook" href="#fb">
                 <i class="fab fa-facebook-f"></i>

@@ -43,7 +43,7 @@ export class Event extends Component {
                 cum, nulla esse facere atque, blanditiis doloribus at sunt quas,
                 repellendus vel? Et, hic!
               </p>
-              <a href="#icon3" className="btn btn--with-icon">
+              <a href="#icon3" className="btns btn--with-icon">
                 <i className="btn-icon fas fa-long-arrow-alt-right"></i>READ
                 MORE
               </a>
@@ -62,9 +62,9 @@ export class Event extends Component {
         >
           <Row>
             <Col>
-              <h1>Faculty</h1>
+              <h1>Events</h1>
               <p>
-                Home / <span style={{ color: "brown" }}>Faculty</span>
+                Home / <span style={{ color: "brown" }}>Events</span>
               </p>
             </Col>
           </Row>

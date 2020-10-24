@@ -7,7 +7,11 @@ import { Link } from "react-router-dom";
 class About extends Component {
   render() {
     return (
-      <section className="about py-5" id="about">
+      <section
+        className="about py-5"
+        id="about"
+        style={{ backgroundColor: "#fff" }}
+      >
         <Container>
           <Row>
             <Col xs={10} lg={8} md={6} className="mx-auto my-5">
@@ -28,7 +32,7 @@ class About extends Component {
               </p>
               <a
                 href="/about"
-                className="btn btn-outline-primary text-uppercase"
+                className="btn btn-outline-primary text-uppercase learn-more"
                 data-aos="fade-right"
               >
                 <Link to="/about">learn more</Link>

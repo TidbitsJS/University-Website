@@ -21,7 +21,7 @@ class AboutPage extends Component {
           </Row>
         </Container>
         <Container fluid>
-          <Row>
+          <Row style={{ backgroundColor: "#fff" }}>
             <Col className="mx-auto px-lg-5 text-left mt-5 mb-5">
               <h1>Overview</h1>
               <div style={{ borderTop: "4px solid green", width: 50 }}></div>

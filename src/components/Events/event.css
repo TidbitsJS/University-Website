@@ -114,7 +114,7 @@ a.icon-link:hover {
   text-decoration: none;
 }
 
-.btn {
+.btns {
   background: white;
   color: #363738;
   font-weight: bold;
@@ -129,11 +129,11 @@ a.icon-link:hover {
   border: none;
 }
 
-.btn:focus {
+.btns:focus {
   box-shadow: none;
 }
 
-.btn:hover {
+.btns:hover {
   background: #ffb535;
   color: #fff;
 }

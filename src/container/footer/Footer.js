@@ -7,7 +7,11 @@ import MapContainer from "./MapContainer";
 export class Footer extends Component {
   render() {
     return (
-      <footer className="site-footer" id="contact">
+      <footer
+        className="site-footer"
+        id="contact"
+        style={{ backgroundColor: "#fff" }}
+      >
         <Container fluid>
           <Row>
             <MapContainer />

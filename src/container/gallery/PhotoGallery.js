@@ -15,7 +15,7 @@ class PhotoGallery extends Component {
 
   render() {
     return (
-      <section id="gallary">
+      <section id="gallary" style={{ backgroundColor: "#fff" }}>
         <Container fluid className="message-container">
           <Row>
             <Col className="mx-auto my-3 text-center text-capitalize">

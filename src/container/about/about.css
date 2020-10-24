@@ -29,3 +29,7 @@
   align-items: center;
   flex-direction: column;
 }
+
+.learn-more:hover a {
+  color: #ffffff;
+}
