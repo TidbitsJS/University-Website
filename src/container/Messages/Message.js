@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
 import course from "../../images/course01.jpeg";
 import "./message.css";
+import LatestEvents from "./LatestEvents";
 
 class Message extends Component {
   constructor(props) {
@@ -106,6 +107,7 @@ class Message extends Component {
             </Col>
           </Row>
         </Container>
+        <LatestEvents />
       </section>
     );
   }
