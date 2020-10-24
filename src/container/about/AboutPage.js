@@ -54,7 +54,7 @@ class AboutPage extends Component {
               </p>
             </Col>
           </Row>
-          <Row style={{ backgroundColor: "rgba(0,0,0,0.2)", color: "white" }}>
+          <Row style={{ backgroundColor: "#E0E0E0", color: "white" }}>
             <Col xs={10} lg={8} md={6} className="mx-auto px-lg-5 my-5">
               <h1 className="text-capitalize">
                 <strong className="banner-title">Mission</strong>
