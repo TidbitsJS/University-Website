@@ -14,7 +14,11 @@ import { Link } from "react-router-dom";
 export class Topbar extends Component {
   render() {
     return (
-      <Navbar bg="light" expand="lg" className="px-4 text-capitalize">
+      <Navbar
+        expand="lg"
+        className="px-4 text-capitalize"
+        style={{ backgroundColor: "#fff" }}
+      >
         <Navbar.Brand href="#home">
           <img src={logo} alt="logo" />
         </Navbar.Brand>
