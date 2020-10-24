@@ -69,7 +69,7 @@ export class Event extends Component {
             </Col>
           </Row>
         </Container>
-        <Container className="mt-5">
+        <Container className="mt-5 mb-5">
           <Row>{displayEvent}</Row>
         </Container>
       </section>
