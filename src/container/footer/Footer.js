@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
-import college from "../../images/College Logo.png";
+import college from "../../images/clogo.png";
 import "./footer.css";
 import MapContainer from "./MapContainer";
 
@@ -24,7 +24,9 @@ export class Footer extends Component {
               className="mx-auto  d-flex justify-content-start align-items-center flex-column flex-wrap"
             >
               <Image src={college} fluid />
-              <h4 className="mt-3">University of York</h4>
+              <h4 className="mt-3 text-center">
+                University of <br /> York
+              </h4>
             </Col>
             <Col
               sm={6}
