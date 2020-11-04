@@ -1,5 +1,11 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `Demo` - https://tidbitsjs.github.io/University-Website/
+
+![website](https://i.ibb.co/2Shb74Q/Screenshot-from-2020-11-04-22-36-03.png)
+
+#
+
 ## Available Scripts
 
 In the project directory, you can run:
